@@ -41,6 +41,9 @@ io.on('connection', (socket) => {
   });
 });
 
+console.log(`Message from ${username}: ${msg.text}`);
+    
+
 // ✅ Use Render’s assigned PORT
 const PORT = process.env.PORT || 10000;
 
