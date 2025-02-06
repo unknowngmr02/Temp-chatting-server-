@@ -40,8 +40,6 @@ io.on('connection', (socket) => {
     delete users[socket.id];
   });
 });
-
-console.log(`Message from ${username}: ${msg.text}`);
     
 
 // ✅ Use Render’s assigned PORT
